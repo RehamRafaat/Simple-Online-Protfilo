@@ -1,0 +1,33 @@
+body{
+    background-color: #330040;
+}
+.data{
+    width: 800px;
+    height: 1050px;
+    margin: auto;
+    border: solid;
+    border-color:white;
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px #330040;
+    margin-top:80px;
+    background-color: #330040;
+}
+.inp{
+     width: 310px;
+     margin: auto;
+      height: 45px;
+       border-radius: 5px;
+        margin-top: 2%;
+         background-color: rgba(218, 174, 243, 0.548); 
+         border-color: rgb(62, 2, 77);
+          font-size: 20px; 
+          color:white;
+           padding-left: 10px;
+           margin-left: 230px;
+}
+h2{
+    margin-top: 40px;
+    z-index: 3;
+    color: white;
+    text-align: center;
+}

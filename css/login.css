@@ -1,0 +1,36 @@
+body{
+    background-color: #330040;
+    height: 625px;
+}
+.welcoming{
+    text-align: center;
+    color: #fff;
+    padding-top: 15%;
+    
+}
+::placeholder {
+    color:#330040;
+    opacity: 1; /* Firefox */
+}
+.btn{
+    background-color: #330040;
+    border-color: white;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    border-color:#330040;
+    color:#330040;
+}
+@media (min-width: 669px)
+{
+    form{
+        margin-top: -50px;
+    }
+}
+.g{
+    color: #CA00FF;
+}
+.g:hover{
+    color: #9800BF;
+}
