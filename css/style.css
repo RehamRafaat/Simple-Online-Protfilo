@@ -61,10 +61,10 @@ header p {
 }
 .cont h2{
     font-size: 25px;
-    color: black;
+    color: #CA00FF;
 }
 .cont h2:hover{
-    color: #CA00FF;
+    color: white;
 }
 @media(min-width:768px) {
     header {

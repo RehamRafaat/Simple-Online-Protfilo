@@ -1,3 +1,8 @@
+<?php 
+
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +26,7 @@
                    <div class="col-md-12 welcoming">
                         <h1 id="test_status" style="font-size:50px;">Welcome To Simple Protfolio</h1>
                         
-                                <form method="post" action="includes/Login_Inc.php">
+                                <form method="post" action="Login_Inc.php">
                                     <input name="mail" id="e_mail" style="margin-left: 2px; width: 310px;margin-right: 10px; height: 45px; border-radius: 5px; margin-top: 9%; background-color: rgba(218, 174, 243, 0.548); border-color: rgb(62, 2, 77); font-size: 20px; color:white; padding-left: 10px;" placeholder="user123@gmail.com" required>
                                     <input name="pass" id="back" style="margin-left: 2px; width: 310px; height: 45px; border-radius: 5px; margin-top: 10%; background-color: rgba(218, 174, 243, 0.548); border-color: rgb(62, 2, 77);font-size: 20px; color:white; padding-left: 10px;" type="password" placeholder="1256ssdc" required>
                                     <div class=" col-md-12">

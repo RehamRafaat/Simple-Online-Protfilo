@@ -1,7 +1,7 @@
 <?php
-if(!isset($_POST['name']))
+if(!isset($_POST['submit']))
 {
-    header("Location: sign_up.php");
+    header("Location: login.php");
     exit();
 }
 session_start();
@@ -38,10 +38,10 @@ $_SESSION['password'] = $_POST['password'];
     </style>
 </head>
 <body>
-    <div class="container" style="background-color: #65007F; height: 1900px;"> 
+    <div class="container" style="background-color: #65007F; height: 2100px;"> 
         <div class="row">
                 <h1 class="welcoming" style="font-size:50px; margin-top: -90px;">Complete Your Protfolio</h1>
-                <div class="data" style="height: 1680px;">
+                <div class="data" style="height: 1850px;">
                     <form action="final.php" method="post" name="myForm">
                         <div class="col-md-12">
                             <h2 style="margin-top:100px;float: left; margin-left: 40px; ">About You</h2>
@@ -66,6 +66,10 @@ $_SESSION['password'] = $_POST['password'];
                                         <div class="col-md-12">
                                                 <h2 style="margin-top:100px;float: left; margin-left: 40px; ">Twitter Link</h2>
                                                 <input style="margin-top:30px;float: left; margin-left: 40px; height: 50px; " class="inp" name="twitter" id="e_mail" placeholder="Give A Sammary About Your Job Experience"required>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <h2 style="margin-top:100px;float: left; margin-left: 40px;">Upload Photo</h2>
+                                                <input style="margin-top:30px;float: left; margin-left: 40px; height: 50px; "  type="file" class="inp" name="photo">
                                             </div>
                                             <div class="col-md-12">
                                                     <button type="submit" class="btn" style="margin-left:300px;margin-top: 50px; width: 160px; height: 50px; font-size: 18px;" value="Finish" name="submit" onclick="on()">Finish</button>

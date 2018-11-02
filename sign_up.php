@@ -43,10 +43,6 @@
                                             <input class="inp" type="password" name="password" id="pass" placeholder="*******" required>
                                         </div>
                                         <div class="col-md-12">
-                                                <h2>Upload Photo</h2>
-                                                <input type="file"class="inp" name="mail">
-                                            </div>
-                                        <div class="col-md-12">
                                               <button type="submit" class="btn" style="margin-left:300px;margin-top: 50px; width: 160px; height: 50px; font-size: 18px;" value="Go to step 2" name="submit" onclick="on()">complete profile</button>
                                             </div>
                                         
