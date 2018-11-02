@@ -21,33 +21,33 @@
                 <h1 class="welcoming" style="font-size:50px; margin-top: -90px;">Welcome To Simple Protfolio</h1>
                 <h1 class="welcoming" style="font-size:20px; margin-top: -120px;">Create A new Protfolio</h1>
                 <div class="data">
-                    <form>
+                    <form action="complete_profile.php" method="post" name="myForm">
                         <div class="col-md-12">
                             <h2 style="margin-top:100px;">Name</h2>
-                            <input class="inp" name="mail" id="e_mail" placeholder="user123@gmail.com">
+                            <input class="inp" name="name" id="name" placeholder="Enter Your Name" required>
                         </div>
                         <div class="col-md-12">
                                 <h2>Email</h2>
-                                <input class="inp" name="mail" id="e_mail" placeholder="user123@gmail.com">
+                                <input class="inp" name="mail" id="mail" placeholder="Enter Valid Mail" required>
                             </div>
                             <div class="col-md-12">
                                     <h2>Phone</h2>
-                                    <input class="inp" name="mail" id="e_mail" placeholder="user123@gmail.com">
+                                    <input class="inp" name="phone" id="phone" placeholder="01234567891" required>
                                 </div>
                                 <div class="col-md-12">
                                         <h2>Gender</h2>
-                                        <input class="inp" name="mail" id="e_mail" placeholder="user123@gmail.com">
+                                        <input class="inp" name="gender" id="Gender" placeholder="Male or Female" required>
                                     </div>
                                     <div class="col-md-12">
                                             <h2>Password</h2>
-                                            <input class="inp" name="mail" id="e_mail" placeholder="user123@gmail.com">
+                                            <input class="inp" type="password" name="password" id="pass" placeholder="*******" required>
                                         </div>
                                         <div class="col-md-12">
                                                 <h2>Upload Photo</h2>
                                                 <input type="file"class="inp" name="mail">
                                             </div>
                                         <div class="col-md-12">
-                                                <input type="submit" class="btn" style="margin-left:300px;margin-top: 50px; width: 160px; height: 50px; font-size: 18px;" value="Complete Profile" name="submit" onclick="on()">
+                                              <button type="submit" class="btn" style="margin-left:300px;margin-top: 50px; width: 160px; height: 50px; font-size: 18px;" value="Go to step 2" name="submit" onclick="on()">complete profile</button>
                                             </div>
                                         
                     </form>
